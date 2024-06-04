@@ -1,0 +1,31 @@
+[project]
+name = "evametoc"
+version = "0.0.15" 
+authors = [
+    { name="Daan Gommers", email="datalabjivc@mindef.nl" },
+    { name="Dennis Strik" },
+    { name="Vincent van Leijen" },
+]
+description = "A package to encode/decode environmental NetCDF-files into sets of video files"
+requires-python = ">=3.7"
+license = { file="LICENCE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: EUPL License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "python-dateutil>=2.8.2",
+    "cftime>=1.6.2",
+    "numpy>=1.21.4",
+    "xarray>=2022.12.0",
+    "netCDF4>=1.6.2",
+    "pandas>=1.5.2",
+    "ffmpeg-python>=0.2.0",
+    "scipy>=1.10.0",
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
