@@ -1,21 +1,14 @@
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/datalab-nld/eva">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">EVA METOC</h3>
-
-  <p align="center">
-    Environmental Video Array - Making METOC data portable with video codecs
-    <br />
-    __[Explore the docs »][docs-url]__
-    <br />
-    <br />
-    __[Read the paper »][paper-url]__
-  </p>
 </div>
+<h3 align="center">EVA METOC</h3>
+<p align="center">
+Environmental Video Array - Making METOC data portable with video codecs
+</p>
+<p align="center">
+<strong><a href="https://github.com/datalab-nld/eva">Explore the docs »</a> - <a href="#">Read the paper »</a></strong>
+</p>
 
 ## About The Project
 EVA METOC is a package to compress Numerical Weather Predictions and Ocean forecast into small files, using video codecs.
