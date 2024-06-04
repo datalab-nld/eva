@@ -1,0 +1,14 @@
+* evametoc
+    * [core](evametoc/core.md)
+    * data
+        * [group](evametoc/data/group.md)
+        * [nans](evametoc/data/nans.md)
+        * [postprocess](evametoc/data/postprocess.md)
+        * [prepare](evametoc/data/prepare.md)
+        * [preprocess](evametoc/data/preprocess.md)
+    * [evafile](evametoc/evafile.md)
+    * [metadata](evametoc/metadata.md)
+    * [utils](evametoc/utils.md)
+    * video
+        * [ffmpeg](evametoc/video/ffmpeg.md)
+        * [frames](evametoc/video/frames.md)
