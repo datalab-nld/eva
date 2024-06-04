@@ -1,0 +1,84 @@
+site_name: EVA Metoc Compression
+
+package_path: package/src
+include_init: false
+
+
+nav:
+    - Home:
+        - Overview: index.md
+    - Code Reference: reference/
+watch:
+    - package
+
+theme:
+    name: material
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - navigation.sections
+        - navigation.path
+        - search.highlight
+        - search.suggest
+        - toc.follow
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          # scheme: ['default','slate']
+          scheme: default
+          # colors: ['red','pink','purple','deep purple','indigo','blue','light blue','cyan',
+          #          'teal','green','light green','lime','yellow','amber','orange','deep orange',
+          #          'brown','grey','blue grey','black','white']
+          primary: indigo
+          accent: indigo
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: black
+          accent: lime
+          toggle:
+              icon: material/weather-night
+              name: Switch to light mode
+
+markdown_extensions:
+    - admonition
+    - footnotes
+    - pymdownx.emoji
+    - pymdownx.magiclink
+    - pymdownx.snippets:
+        check_paths: true
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.tasklist
+    - toc:
+        permalink: "¤"
+
+plugins:
+    - offline
+    - search
+    - autorefs
+    - gen-files:
+        scripts:
+          - docs/reference_pages.py
+    - literate-nav:
+        nav_file: SUMMARY.txt
+    - mkdocstrings:
+        handlers:
+            python:
+                paths: [package/src]
+                options:
+                    docstring_options:
+                        ignore_init_summary: true
+                    docstring_section_style: list
+                    docstring_style: google
+                    members_order: alphabetical
+                    merge_init_into_class: true
+                    seperate_signature: true
+                    show_category_heading: no
+                    show_submodules: no
+
