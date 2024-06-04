@@ -1,13 +1,13 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="200" height="200">
 </div>
 <h3 align="center">EVA METOC</h3>
 <p align="center">
 Environmental Video Array - Making METOC data portable with video codecs
 </p>
 <p align="center">
-<strong><a href="https://github.com/datalab-nld/eva">Explore the docs »</a> - <a href="#">Read the paper »</a></strong>
+<strong><a href="https://datalab-nld.github.io/eva/">Explore the docs »</a> - <a href="#">Read the paper »</a></strong>
 </p>
 
 ## About The Project
@@ -94,8 +94,8 @@ _For more examples, please refer to the [Documentation][docs-url]_
 Distributed under the EUROPEAN UNION PUBLIC LICENCE v. 1.2. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[docs-url]: https://github.com/datalab-nld/eva
-[paper-url]: https://github.com/datalab-nld/eva
+[docs-url]: https://datalab-nld.github.io/eva/
+[paper-url]: https://datalab-nld.github.io/eva/
 [python-url]: https://www.python.org/
 [python-img]: https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [xarray-url]: https://docs.xarray.dev/en/stable/
